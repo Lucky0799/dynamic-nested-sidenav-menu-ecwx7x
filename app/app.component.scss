@@ -1,0 +1,39 @@
+
+@import './theme';
+
+.mat-sidenav {
+  width: 360px;
+}
+.mat-sidenav-container {
+  background-color: white !important;
+  height: 100vh;
+
+  .mat-sidenav-content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.sidenav-toolbar {
+  height: 64px;
+ 
+  display: flex;
+  flex-direction: row;
+
+  @media (max-width: 600px) {
+    height: 56px;
+  }
+}
+.mat-nav-list {
+  padding-top: 0;
+}
+
+.menu-list-item.mat-list-item {
+  .mat-list-item-content {
+    flex: 1 1 100%;
+  }
+}
+.version-info {
+  font-size: 8pt;
+  padding: 8px;
+  align-self: flex-end;
+}

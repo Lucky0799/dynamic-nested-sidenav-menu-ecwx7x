@@ -1,0 +1,12 @@
+{
+  "apps": [
+    {
+      "styles": [
+        "styles.scss"
+      ]
+    }
+  ],
+  "defaults": {
+    "styleExt": "scss"
+  }
+}
